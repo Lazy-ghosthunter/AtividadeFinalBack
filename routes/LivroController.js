@@ -3,7 +3,7 @@ const router = express.Router();
 const Livro = require('../models/Livro');
 
 router.get('/', async (req, res) => {
-  const lista = await Livro.findAll({ order: [['id_livro', 'DESC']] });
+  const lista = await Livro.findAll({ order: [['id', 'DESC']] });
   res.status(200).json(lista);
 });
 
