@@ -17,14 +17,14 @@ router.put('/:id', async (req, res) => {
   const { nome, preco, categoria_id } = req.body;
   await Livro.update(
     { nome, preco, categoria_id },
-    { where: { id_livro: req.params.id } }
+    { where: { id: req.params.id } }
   );
   res.status(200).json({ message: 'Atualizado com sucesso' });
 });
 
 router.delete('/:id', async (req, res) => {
   await Livro.destroy({
-    where: { id_livro: req.params.id }
+    where: { id: req.params.id }
   });
   res.status(200).json({ message: 'Excluído com sucesso' });
 });
