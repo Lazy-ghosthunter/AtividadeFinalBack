@@ -1,0 +1,25 @@
+{
+  "name": "atividadefinalback",
+  "version": "1.0.0",
+  "description": "Back end da tividade final da matéria de desenvolvimento mobile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazy-ghosthunter/AtividadeFinalBack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lazy-ghosthunter/AtividadeFinalBack/issues"
+  },
+  "homepage": "https://github.com/Lazy-ghosthunter/AtividadeFinalBack#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "pg": "^8.21.0"
+  }
+}
