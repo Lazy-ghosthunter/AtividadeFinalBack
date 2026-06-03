@@ -21,6 +21,7 @@ const sequelize = new Sequelize(databaseUrl, {
   }
 });
 
+
 module.exports = {
   Sequelize: Sequelize,
   sequelize: sequelize
