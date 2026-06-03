@@ -2,8 +2,9 @@
   "name": "atividadefinalback",
   "version": "1.0.0",
   "description": "Back end da tividade final da matéria de desenvolvimento mobile.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,8 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "pg": "^8.21.0"
+    "cors": "^2.8.5",
+    "pg": "^8.21.0",
+    "sequelize": "^6.37.7"
   }
 }
